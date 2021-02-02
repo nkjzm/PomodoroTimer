@@ -13,6 +13,7 @@
 		24B617F625C93507007CA3AE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24B617F525C93507007CA3AE /* Preview Assets.xcassets */; };
 		24B6180125C93507007CA3AE /* PomodoroTimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B6180025C93507007CA3AE /* PomodoroTimerTests.swift */; };
 		24B6180C25C93507007CA3AE /* PomodoroTimerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B6180B25C93507007CA3AE /* PomodoroTimerUITests.swift */; };
+		24FEC0DC25C9382B003415DC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24FEC0DB25C9382B003415DC /* SceneDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		24B6180725C93507007CA3AE /* PomodoroTimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PomodoroTimerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		24B6180B25C93507007CA3AE /* PomodoroTimerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomodoroTimerUITests.swift; sourceTree = "<group>"; };
 		24B6180D25C93507007CA3AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24FEC0DB25C9382B003415DC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				24B617F225C93507007CA3AE /* Assets.xcassets */,
 				24B617F725C93507007CA3AE /* Info.plist */,
 				24B617F425C93507007CA3AE /* Preview Content */,
+				24FEC0DB25C9382B003415DC /* SceneDelegate.swift */,
 			);
 			path = PomodoroTimer;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			files = (
 				24B617F125C93505007CA3AE /* ContentView.swift in Sources */,
 				24B617EF25C93505007CA3AE /* PomodoroTimerApp.swift in Sources */,
+				24FEC0DC25C9382B003415DC /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
